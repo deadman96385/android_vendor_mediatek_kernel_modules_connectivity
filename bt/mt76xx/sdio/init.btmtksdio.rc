@@ -1,0 +1,5 @@
+# load btmtksdio
+#on property:vendor.connsys.btdriver.init=true
+#  insmod /vendor/lib/modules/btmtksdio.ko
+on boot
+  insmod /vendor/lib/modules/btmtksdio.ko
